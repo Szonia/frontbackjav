@@ -67,6 +67,23 @@ button:active {
   transform: scale(0.98);
 }
 
+/* Hibák megjelenítése piros színnel */
+small {
+  display: block;
+  color: #e74c3c; /* Piros szín */
+  font-size: 12px;
+  margin-top: 5px;
+}
 
+small a {
+  color: #e74c3c;
+}
 
+div {
+  text-align: left;
+}
 
+input.ng-touched.ng-invalid {
+  border-color: #e74c3c;
+  box-shadow: 0 0 5px #e74c3c;
+}
